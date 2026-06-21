@@ -1,12 +1,11 @@
 # Dot-source this file before running dbt:
 #   . .\set-env.ps1
 # or . ..\set-env.ps1 if you're running the script from airbnb/ folder
-# $env:DBT_ENV_NAME="MYDEV"
 # !! Do this every time you open a new PowerShell terminal, as env vars are not persisted !!
 # First-time only (one-shot per machine):
 #   Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 
-$env:SNOWFLAKE_ACCOUNT = "gxqhjwe-sn00826"
+$env:SNOWFLAKE_ACCOUNT = "bcjhxzj-sp84616"
 $env:DBT_USER = "dbt"
 $env:PRIVATE_KEY_PASSPHRASE = "q"
 $env:PRIVATE_KEY = @"
