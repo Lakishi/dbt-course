@@ -15,6 +15,7 @@ SELECT
     l.minimum_nights,
     l.host_id,
     l.price,
+    l.price_str,
     h.host_name,
     h.Is_Superhost,
     l.created_at,
